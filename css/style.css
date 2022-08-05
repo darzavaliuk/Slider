@@ -34,8 +34,8 @@ body {
 }
 
 .profile-box-content {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 30px;
+    background: rgba(20, 6, 70, 0.4);
+    padding: 10px;
     color: #fff;
     font-size: 18px;
     opacity: 0;
@@ -44,7 +44,7 @@ body {
 }
 
 .profile-box-content h2 {
-    margin: 0 0 20px;
+    margin: 0 0 5px;
 }
 
 .profile-box-content p:last-child {
@@ -63,11 +63,12 @@ body {
 }
 
 .profile-container:hover .profile-box {
-    flex-basis: calc(15%);
+    flex-basis: calc(5%);
+    cursor: pointer;
 }
 
 .profile-container:hover .profile-box:hover {
-    flex-basis: calc(70%);
+    flex-basis: calc(90%);
     transition: all 0.4s ease-out;
     z-index: 1;
 }
